@@ -5,13 +5,13 @@ import re
 
 def get_links(url):
   """
-  Retorna uma lista de links para as telas de login de um site.
+ Return website login list.
 
   Args:
-    url: O URL do site.
+    url: Website URL.
 
   Returns:
-    Uma lista de links.
+    Link list.
   """
 
   links = []
