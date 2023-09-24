@@ -28,7 +28,7 @@ def get_links(url):
 
 def main():
   """
-  Programa principal.
+  Main program.
   """
 
   url = input("Digite o URL do site: ")
@@ -40,7 +40,7 @@ def main():
     soup = BeautifulSoup(response.content, "html.parser")
 
     if soup.find("h1", text="Login"):
-      print(f"Página de login encontrada: {link}")
+      print(f"Login page found: {link}")
 
 
 if __name__ == "__main__":
